@@ -1,0 +1,26 @@
+2024-01-27 18:32:05,252 [restartedMain] INFO  com.bookmyshow.BookMyShowAppApplication            - Starting BookMyShowAppApplication using Java 17.0.7 on LAPTOP-MCI1CJ7M with PID 20792 (C:\Users\ROSHAL\eclipse-workspace\brainworks\Book_My_Show_App\target\classes started by ROSHAL in C:\Users\ROSHAL\eclipse-workspace\brainworks\Book_My_Show_App)
+2024-01-27 18:32:05,253 [restartedMain] INFO  com.bookmyshow.BookMyShowAppApplication            - No active profile set, falling back to default profiles: default
+2024-01-27 18:32:05,477 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-27 18:32:05,500 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 23 ms. Found 5 JPA repository interfaces.
+2024-01-27 18:32:05,602 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8080 (http)
+2024-01-27 18:32:05,603 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-27 18:32:05,603 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2024-01-27 18:32:05,604 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2024-01-27 18:32:05,630 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2024-01-27 18:32:05,630 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 373 ms
+2024-01-27 18:32:05,664 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-27 18:32:05,671 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Starting...
+2024-01-27 18:32:05,749 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Start completed.
+2024-01-27 18:32:05,750 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-01-27 18:32:06,081 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-01-27 18:32:06,081 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-27 18:32:06,153 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-27 18:32:06,271 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain               - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7e4ded17, org.springframework.security.web.context.SecurityContextPersistenceFilter@627884cf, org.springframework.security.web.header.HeaderWriterFilter@69049dfa, org.springframework.security.web.authentication.logout.LogoutFilter@58cc09c8, com.bookmyshow.utils.JwtRequestFilter@281a562a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@26c0237d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b669112, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@365897f9, org.springframework.security.web.session.SessionManagementFilter@3a62753, org.springframework.security.web.access.ExceptionTranslationFilter@6845872a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@235b6992]
+2024-01-27 18:32:06,388 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2024-01-27 18:32:06,396 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2024-01-27 18:32:06,403 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8080 (http) with context path ''
+2024-01-27 18:32:06,408 [restartedMain] INFO  com.bookmyshow.BookMyShowAppApplication            - Started BookMyShowAppApplication in 1.19 seconds (JVM running for 185.816)
+2024-01-27 18:32:06,410 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2024-01-27 18:51:53,994 [HikariPool-2 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool                  - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=2m17s817ms222µs300ns).
+2024-01-27 18:52:14,272 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-27 18:52:14,320 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Shutdown initiated...
